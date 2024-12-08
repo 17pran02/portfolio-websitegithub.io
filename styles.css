@@ -1,0 +1,45 @@
+body,p,h1,h2{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+}
+.profile{
+display:flex;
+align-items: center;
+}
+.photo{
+    flex: 1;
+    padding: 1rem;
+}
+.photo img{
+    max-width:100%;
+    height:auto;
+    border-radius:50%
+}
+.bio{
+    flex: 2;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+@media queries and(max-width:768px){
+    .profile{
+        flex-direction: column;
+    }
+}
